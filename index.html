@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>House of Antiques | بيت التحفيات</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="home">
+  <div class="shell">
+
+    <!-- TOP NAV (مثل المرجع: شفاف فوق الهيرو) -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brandText">
+          <div class="t1" data-i18n="brand1">بيت التحفيات</div>
+          <div class="t2" data-i18n="brand2">House of Antiques</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <span class="dot"></span>
+        <a href="about.html" data-i18n="nav_about">نبذة</a>
+        <span class="dot"></span>
+        <a href="store.html" data-i18n="nav_store">المتجر</a>
+        <span class="dot"></span>
+        <a href="tour.html" data-i18n="nav_tour">الجولة</a>
+        <span class="dot"></span>
+        <a href="booking.html" data-i18n="nav_booking">الحجز</a>
+        <span class="dot"></span>
+        <a href="auction.html" data-i18n="nav_auction">المزاد</a>
+        <span class="dot"></span>
+        <a href="contact.html" data-i18n="nav_contact">تواصل</a>
+      </nav>
+
+      <div class="lang">
+        <button type="button" data-lang="ku">KU</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="ar" class="active">AR</button>
+      </div>
+    </header>
+
+    <!-- HERO SLIDER -->
+    <section class="hero">
+      <div class="heroBg" id="heroBg" aria-hidden="true"></div>
+
+      <!-- gradient overlays like the reference -->
+      <div class="heroShade" aria-hidden="true"></div>
+
+      <div class="heroContent">
+        <div class="kicker" data-i18n="kicker">وجهة تراثية — بغداد</div>
+
+        <h1 class="h1">
+          <span data-i18n="h1a">مرحباً بكِ في</span><br/>
+          <span class="h1b" data-i18n="h1b">بيت التحفيات</span>
+        </h1>
+
+        <p class="sub" data-i18n="sub">
+          تجربة متحفية مع مقتنيات نادرة، قصص عائلة، وجولات افتراضية—واستكشاف القطع الفريدة عبر متجرنا.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="store.html" data-i18n="cta1">استكشف المتجر</a>
+          <a class="btn" href="tour.html" data-i18n="cta2">شاهد الجولة الافتراضية</a>
+        </div>
+      </div>
+
+      <!-- pager like the reference (optional) -->
+      <div class="heroPager" aria-hidden="true">
+        <button class="arw" id="prevSlide">←</button>
+        <span id="slideCount">1/5</span>
+        <button class="arw" id="nextSlide">→</button>
+      </div>
+    </section>
+
+    <!-- CARDS like the reference -->
+    <section class="cards">
+      <div class="cardsGrid" id="cardsGrid"></div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
